@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>สถานที่เที่ยวอุดรธานี แนะนำที่ต้องไปเช็คอิน | Udon Trip</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="image/final boss.png">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="nav-left">
+        <div class="logo">UD</div>
+        <div>
+          <div class="logo-text-main">Udonthani</div>
+          <div class="logo-text-sub">เที่ยวอุดร แบบม่วนๆ</div>
+        </div>
+        <nav class="nav-menu">
+          
+        </nav>
+      </div>
+      <div class="nav-right"> 
+          <button class="theme-toggle" id="themeToggle" aria-label="สลับโหมดแสง">
+          <img src="image/moon.png" alt="Dark mode" class="icon-moon">
+          <img src="image/sun icon.png" alt="Light mode" class="icon-sun">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+ 
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <h1 class="hero-title">ที่เที่ยวอุดรธานี เด็ด ๆ ต้องไปเช็คอิน ให้ม่วนหลาย</h1>
+        <p class="hero-sub">
+          รวมไฮไลต์ที่เที่ยวอุดร จากทะเลบัวแดง ภูเขา วัดสวย หมู่บ้านโฮมสเตย์
+          เอาไว้ให้เลือกแพลนทริปง่าย ๆ ในหน้าเดียว <br>
+        </p>
+
+      
+
+        <div class="hero-tags">
+          <span class="tag">#อุดรธานี</span>
+          <span class="tag">#อีสาน</span>
+          <span class="tag">#ธรรมชาติ</span>
+          <span class="tag">#วัดสวย</span>
+          <span class="tag">#โฮมสเตย์</span>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <!-- เปลี่ยนเป็นรูปของตัวเองทีหลังได้ -->
+        <img
+          class="hero-image"
+          src="image/ped.jpg"
+          alt="บรรยากาศธรรมชาติอุดรธานี"
+        />
+        <div class="hero-badge">
+          รวม 15 จุดเช็คอินยอดฮิตในเมืองอุดรและรอบๆ
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="content-intro">
+      <p>
+        อุดรธานีไม่ใช่แค่เมืองทางผ่าน แต่เป็นจังหวัดที่มีครบทั้งธรรมชาติ ทะเลบัวแดงสุดอันซีน
+        วัดสวยบนภูเขา หมู่บ้านโฮมสเตย์กลางหุบเขา ไปจนถึงพิพิธภัณฑ์ชิค ๆ ในเมือง
+        เหมาะจะมาเที่ยวได้ทั้งปีเลย
+      </p>
+      <p>
+        ด้านล่างคือคัดตัวอย่างที่เที่ยวเด่น ๆ จากหลายโซนอุดร
+        ถ้าอยากเพิ่มที่ใหม่ ๆ ก็แค่ก็อปการ์ดแล้วเปลี่ยนชื่อ/รายละเอียดให้ตรงกับที่เที่ยวอื่น ๆ ได้เลย
+      </p>
+    </section>
+
+    <!-- FILTER -->
+    <section class="filter-bar">
+      <div class="filter-label">หมวดที่เที่ยว:</div>
+      <!-- ใส่ data-filter ให้ JS ใช้ -->
+      <button class="filter-chip active" data-filter="all">ทั้งหมด</button>
+      <button class="filter-chip" data-filter="water">ทะเล / น้ำ</button>
+      <button class="filter-chip" data-filter="temple">วัดสวย / สายบุญ</button>
+      <button class="filter-chip" data-filter="nature">ธรรมชาติ / ภูเขา</button>
+      <button class="filter-chip" data-filter="homestay">โฮมสเตย์ / หมู่บ้าน</button>
+      <button class="filter-chip" data-filter="city">ในเมือง</button>
+    </section>
+
+    <!-- ATTRACTION LIST -->
+    <section class="attraction-list">
+
+      <!-- 1 ทะเลบัวแดง -->
+      <article class="attraction-card" data-category="water">
+        <div class="attraction-number">1</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            ทะเลบัวแดง บึงหนองหาน
+          </div>
+          <div class="attraction-location">อำเภอกุมภวาปี · ทะเลบัวอันซีน</div>
+          <p class="attraction-desc">
+            ทุ่งบัวแดงผืนใหญ่กลางบึงหนองหานกว่า 2 หมื่นไร่
+            ดอกบัวสีชมพูจะบานเต็มที่ช่วงหน้าหนาว ยิ่งล่องเรือช่วงเช้า ๆ บรรยากาศยิ่งสวย
+            ได้เห็นนกน้ำและควายลงเล่นน้ำแบบธรรมชาติสุด ๆ
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 05.00–11.00 น. ช่วง ธ.ค.–ก.พ. ดอกบัวสวยสุด<br />
+            <span class="meta-label">ท่าเรือยอดนิยม:</span> ท่าเดียม, ท่าเชียงแหว, ท่าดอนคง
+          </div>
+          <a href="https://goo.gl/maps/YycAGkx4eU7ptNAdA" class="link-more" target="_blank">
+            เปิดแผนที่ไปทะเลบัวแดง
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/ทะเลบัวแดง.png"
+            alt="ทะเลบัวแดง บึงหนองหาน อุดรธานี"
+          />
+          <div class="attraction-tag-badge">ทะเลบัวแดง</div>
+        </div>
+      </article>
+
+      <!-- 2 คำชะโนด -->
+      <article class="attraction-card" data-category="temple">
+        <div class="attraction-number">2</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            คำชะโนด เกาะป่าศักดิ์สิทธิ์ พญานาค
+          </div>
+          <div class="attraction-location">อำเภอบ้านดุง · สายมูห้ามพลาด</div>
+          <p class="attraction-desc">
+            เกาะป่าคำชะโนดถูกล้อมรอบด้วยน้ำทั้งเกาะ มีต้นคำชะโนดสูงใหญ่ขึ้นแน่นเต็มพื้นที่
+            ด้านในมีทั้งศาลหลวงปู่ศรีสุทโธ บ่อน้ำศักดิ์สิทธิ์ และลานต้นคำชะโนด
+            คนมักเดินทางมาไหว้ขอพรเรื่องโชคลาภและความสำเร็จ
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาเปิด:</span> 06.00–18.00 น.<br />
+            <span class="meta-label">ทริค:</span> ไปเช้า ๆ คนจะยังไม่เยอะ เดินไหว้ได้แบบไม่เร่งรีบ
+          </div>
+          <a href="https://goo.gl/maps/ArvjpGJPCFtZT82e9" class="link-more" target="_blank">
+            ดูพิกัดคำชะโนดในแผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/kumchanode.jpeg"
+            alt="คำชะโนด อุดรธานี"
+          />
+          <div class="attraction-tag-badge">สายมู</div>
+        </div>
+      </article>
+
+      <!-- 3 พิพิธภัณฑสถานแห่งชาติบ้านเชียง -->
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">3</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            พิพิธภัณฑสถานแห่งชาติบ้านเชียง มรดกโลก
+          </div>
+          <div class="attraction-location">อำเภอหนองหาน · สายประวัติศาสตร์</div>
+          <p class="attraction-desc">
+            พิพิธภัณฑ์ที่ตั้งอยู่ในพื้นที่แหล่งโบราณคดีบ้านเชียง หนึ่งในมรดกโลกทางวัฒนธรรมของไทย
+            ภายในจัดแสดงโบราณวัตถุ เครื่องปั้นดินเผาลายสวย และเรื่องราวการขุดค้นทางโบราณคดี
+            เหมาะมากกับสายเรียนรู้ประวัติศาสตร์อีสาน
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาเปิด:</span> 09.00–16.00 น.<br />
+            <span class="meta-label">ค่าเข้า:</span> คนไทย 30 บาท · ต่างชาติ 150 บาท
+          </div>
+          <a href="https://goo.gl/maps/uccAVb5Gb9fV7iYZ8" class="link-more" target="_blank">
+            นำทางไปพิพิธภัณฑ์บ้านเชียง
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/Ban_Chiang.jpg"
+            alt="พิพิธภัณฑสถานแห่งชาติบ้านเชียง"
+          />
+          <div class="attraction-tag-badge">มรดกโลก</div>
+        </div>
+      </article>
+
+      <!-- 4 อุทยานประวัติศาสตร์ภูพระบาท -->
+      <article class="attraction-card" data-category="nature">
+        <div class="attraction-number">4</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            อุทยานประวัติศาสตร์ภูพระบาท หินทรายรูปร่างแปลก
+          </div>
+          <div class="attraction-location">อำเภอบ้านผือ · ธรรมชาติ + เรื่องเล่า</div>
+          <p class="attraction-desc">
+            พื้นที่หินทรายอายุนับร้อยล้านปีที่ถูกลมฝนกัดเซาะจนเกิดเป็นโขดหินรูปร่างแปลกตา
+            หลายก้อนมีชื่อเรียกและผูกเรื่องเล่าไว้ เช่น ถ้ำพระ หีบศพพ่อตา หอนางอุสา
+            เดินเล่นถ่ายรูปไปก็เหมือนได้ย้อนเวลาไปอีกโลก
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาเปิด:</span> 08.00–18.00 น.<br />
+            <span class="meta-label">ค่าเข้า:</span> คนไทย 20 บาท · ต่างชาติ 100 บาท
+          </div>
+          <a href="https://goo.gl/maps/UoQE3trbfi58sVKx8" class="link-more" target="_blank">
+            ดูเส้นทางไปภูพระบาท
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/หิน.jpg"
+            alt="อุทยานประวัติศาสตร์ภูพระบาท"
+          />
+          <div class="attraction-tag-badge">หินทรายมหัศจรรย์</div>
+        </div>
+      </article>
+
+      <!-- 5 วัดป่าภูก้อน -->
+      <article class="attraction-card" data-category="temple">
+        <div class="attraction-number">5</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            วัดป่าภูก้อน วัดสวยบนสันเขา
+          </div>
+          <div class="attraction-location">อำเภอนายูง · วัดบนภูเขา</div>
+          <p class="attraction-desc">
+            วัดป่าภูก้อนโดดเด่นด้วยวิหารสีฟ้าบนสันเขาและพระพุทธไสยาสน์หินอ่อนสีขาวองค์ใหญ่
+            บรรยากาศรอบ ๆ คือภูเขาเขียวขจี มองไปไกลสุดสายตา
+            ถ้าอากาศดี ๆ จะได้หมอกลอยกรุ้มกริ่มสวยมาก
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาเปิด:</span> 08.30–17.00 น.<br />
+            <span class="meta-label">ฟีล:</span> สงบ ขาว–ฟ้า ตัดกับเขียวของภูเขา
+          </div>
+          <a href="https://goo.gl/maps/HqpLdwioxv4kACGP7" class="link-more" target="_blank">
+            เปิดแผนที่วัดป่าภูก้อน
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/wat.jpg"
+            alt="วัดป่าภูก้อน อุดรธานี"
+          />
+          <div class="attraction-tag-badge">วัดสวย</div>
+        </div>
+      </article>
+
+      <!-- 6 ทุ่งดอกไม้ บ้านห้วยสำราญ -->
+      <article class="attraction-card" data-category="nature">
+        <div class="attraction-number">6</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            ทุ่งดอกไม้ บ้านห้วยสำราญ หมู่บ้านไม้ดอกไม้ประดับ
+          </div>
+          <div class="attraction-location">อำเภอเมือง · สวนดอกไม้ถ่ายรูป</div>
+          <p class="attraction-desc">
+            หมู่บ้านที่ปลูกไม้ดอกไม้ประดับเต็มพื้นที่
+            ชาวบ้านปลูกทั้งไว้บูชาพระและส่งขายไปหลายจังหวัด รวมถึงประเทศเพื่อนบ้าน
+            ช่วงมกราคม–มีนาคม ดอกไม้บานทั้งสวน เดินถ่ายรูปมุมไหนก็สดใสไปหมด
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาเปิด:</span> 08.00–18.00 น.<br />
+            <span class="meta-label">ค่าเข้า:</span> ประมาณ 20 บาท
+          </div>
+          <a href="https://goo.gl/maps/7mWenR57uDg8Ng2r5" class="link-more" target="_blank">
+            นำทางไปทุ่งดอกไม้ห้วยสำราญ
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/ห้วยสำราญ.jpg"
+            alt="ทุ่งดอกไม้ บ้านห้วยสำราญ"
+          />
+          <div class="attraction-tag-badge">สวนดอกไม้</div>
+        </div>
+      </article>
+
+      <!-- 7 หมู่บ้านคีรีวงกต -->
+      <article class="attraction-card" data-category="homestay">
+        <div class="attraction-number">7</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            หมู่บ้านคีรีวงกต หมู่บ้านกลางหุบเขา
+          </div>
+          <div class="attraction-location">อำเภอนายูง · โฮมสเตย์ธรรมชาติ</div>
+          <p class="attraction-desc">
+            หมู่บ้านเล็ก ๆ ที่ถูกล้อมด้วยภูเขาและลำน้ำของอุทยานแห่งชาติน้ำโสม-นายูง
+            อากาศเย็นสบายแทบทั้งปี ช่วงหน้าหนาวยิ่งฟิน
+            มีกิจกรรมเชิงอนุรักษ์ ให้ลองใช้ชีวิตแบบชาวบ้าน หรือนอนโฮมสเตย์ชิล ๆ ก็ได้
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">สไตล์:</span> ชิลธรรมชาติ สโลว์ไลฟ์<br />
+            <span class="meta-label">เหมาะกับ:</span> คนอยากหนีเมืองมานอนโฮมสเตย์
+          </div>
+          <a href="https://goo.gl/maps/intdipYjeaHYfgEU9" class="link-more" target="_blank">
+            ดูพิกัดหมู่บ้านคีรีวงกต
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/คีรีวงกต.jpg"
+            alt="หมู่บ้านคีรีวงกต อุดรธานี"
+          />
+          <div class="attraction-tag-badge">โฮมสเตย์</div>
+        </div>
+      </article>
+
+      <!-- 8 ที่เที่ยวในเมือง: พิพิธภัณฑ์เมือง + ศูนย์วัฒนธรรมไทย-จีน -->
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">8</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            เที่ยวในเมืองอุดร: พิพิธภัณฑ์เมือง + ศูนย์วัฒนธรรมไทย-จีน
+          </div>
+          <div class="attraction-location">อำเภอเมือง · ถ่ายรูปชิคในเมือง</div>
+          <p class="attraction-desc">
+            ใจกลางเมืองมีทั้งพิพิธภัณฑ์เมืองอุดร อาคารเก่าแบบคลาสสิกที่เล่าประวัติเมืองอย่างละเอียด
+            และศูนย์วัฒนธรรมไทย-จีนที่บรรยากาศเหมือนยกเมืองจีนมาไว้กลางอุดร
+            มีสวนแบบจีน สระบัว และจุดถ่ายรูปสวย ๆ เยอะมาก
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 08.00–18.00 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span>  ถนน39 ตำบลหมากแข้ง 
+          </div>
+          <a href="https://maps.app.goo.gl/SPcfMHYarnW1matg8" class="link-more" target="_blank">
+            ศูนย์วัฒนธรรมไทย-จีน อุดรธานี แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/thai jex.webp"
+            alt="ศูนย์วัฒนธรรมไทย-จีน อุดรธานี"
+          />
+          <div class="attraction-tag-badge">ในเมือง</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">9</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            สวนสาธารณะหนองประจักษ์ศิลปาคม
+          </div>
+          <div class="attraction-location">อำเภอเมือง · ถ่ายรูปในเมือง</div>
+          <p class="attraction-desc">
+            อยู่ในเขตเทศบาลเมืองอุดรธานี หนองประจักษ์เป็นหนองน้ำขนาดใหญ่ มีมาตั้งแต่ก่อนตั้งเมืองอุดรธานี เดิมเรียกว่า "หนองนาเกลือ" ตั้งอยู่ทางทิศตะวันตกของตัวเมือง ต่อมาได้เปลี่ยนชื่อเป็น "หนองประจักษ์"
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 05:00–23:00 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span>  ตำบลบ้านเลื่อม อำเภอเมืองอุดรธานี 
+          </div>
+          <a href="https://maps.app.goo.gl/NJSEDWeGTVHPBvHG6" class="link-more" target="_blank">
+            สวนสาธารณะหนองประจักษ์ศิลปาคม แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/หนอง.jpg"
+            alt="สวนสาธารณะหนองประจักษ์ศิลปาคม"
+          />
+          <div class="attraction-tag-badge">ในเมือง</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="nature">
+        <div class="attraction-number">10</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            ภูฝอยลม
+          </div>
+          <div class="attraction-location">ถ่ายวิวธรรมชาติ</div>
+          <p class="attraction-desc">
+            อุทยานท่องเที่ยวเชิงนิเวศขนาดใหญ่ มีสวนดอกไม้สีสันสดใส ทางเดิน และพื้นที่ปิกนิก
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 06.00–18.00 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span>  ตำบลทับกุง อำเภอหนองแสง อุดรธานี 
+          </div>
+          <a href="https://maps.app.goo.gl/c9WegCBwcRCyEQ2D6" class="link-more" target="_blank">
+            ภูฝอยลม แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/ภูฝอยลม.jpg"
+            alt="ภูฝอยลม"
+          />
+          <div class="attraction-tag-badge">ธรรมชาติ</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="nature">
+        <div class="attraction-number">11</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            เขื่อนห้วยหลวง
+          </div>
+          <div class="attraction-location">อำเภอเมือง · ถ่ายรูปธรรมชาติ </div>
+          <p class="attraction-desc">
+             เขื่อนห้วยหลวง ตั้งอยู่ใน ตำบลโคกสะอาด อำเภอเมืองอุดรธานี จังหวัดอุดรธานี เป็นอ่างเก็บน้ำขนาดใหญ่ที่มีไว้ใช้สำหรับการเกษตร การประมง และการจ่ายน้ำเพื่อผลิตน้ำปะปานั่นเองค่ะ ซึ่งนอกจากจะไว้ใช้ประโยชน์อย่างมากมายแล้ว ที่นี่ยังจัดว่าเป็นสถานที่ท่องเที่ยวที่มีวิวทิวทัศน์ที่สวยงาม
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 06.00-20.00 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span>  ตำบลโคกสะอาด อำเภอเมืองอุดรธานี 
+          </div>
+          <a href="https://maps.app.goo.gl/X2KFWdZAQ645Mt986" class="link-more" target="_blank">
+            เขื่อนห้วยหลวง แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/เขื่อนห้วยหลวง.jpg"
+            alt="เขื่อนห้วยหลวง"
+          />
+          <div class="attraction-tag-badge">ธรรมชาติ</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="temple">
+        <div class="attraction-number">12</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            วัดสันติวนาราม
+          </div>
+          <div class="attraction-location">อำเภอเมือง · ถ่ายรูปในเมือง</div>
+          <p class="attraction-desc">
+            วัดที่โดดเด่นด้วย พระอุโบสถทรงดอกบัว ตั้งอยู่กลางน้ำอย่างสวยงาม และที่สำคัญมีเพียงหนึ่งเดียวในไทยเท่านั้นด้วย ด้านในอุโบสถนั้นจะตกแต่งผนังด้วยรูปภาพเกี่ยวกับ​พุทธ​ประวัติอย่างสวยงาม
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 7:00–18:00 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span>  ตําบลบ้านเชียง อําเภอหนองหาน จังหวัดอุดรธานี
+          </div>
+          <a href="https://maps.app.goo.gl/TWwnzwoKjWHbYkhC8" class="link-more" target="_blank">
+            วัดสันติวนาราม แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/วัดสันติวนาราม2.jpg"
+            alt="วัดสันติวนาราม"
+          />
+          <div class="attraction-tag-badge">วัดสวย</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">13</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+          อ่างน้ำพาน
+          </div>
+          <div class="attraction-location">วิวธรรมชาติ</div>
+          <p class="attraction-desc">
+            อ่างน้ำพาน เป็นอ่างเก็บน้ำขนาดใหญ่อีกแห่งของภาคอีสาน ครอบคลุมพื้นที่มากกว่า 3 ตำบลเลยทีเดียว โดยมีพื้นที่รวมกว่า 4,300 ไร่ เป็นอีกสถานที่ท่องเที่ยวพักผ่อนหย่อนใจของชาวอุดร
+          </p>
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 05.00- 18.00 น. <br />
+            <span class="meta-label">พิกัดเด่น:</span>  ตำบลเชียงดา อำเภอสร้างคอม จังหวัดอุดรธานี
+          </div>
+          <a href="https://maps.app.goo.gl/BesGByR5uNqrKA8RA" class="link-more" target="_blank">
+            อ่างน้ำพาน แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/อ่างน้ำพาน.jpg"
+            alt="อ่างน้ำพาน"
+          />
+          <div class="attraction-tag-badge">ธรรมชาติ</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">14</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            พิพิธภัณฑ์เมืองอุดรธานี
+          </div>
+          <div class="attraction-location">ในเมือง</div>
+          <p class="attraction-desc">
+            พิพิธภัณฑ์เมืองอุดรธานี เป็นอาคารที่มีเอกลักษณ์สุดๆ เมื่อก่อนนั้นจะเป็น ตึกราชินูเก่า หรือ อาคารโรงเรียนราชินูทิศ ที่สร้างขึ้นมาตามพระดำริของสมเด็จพระศรีพัชรินทราบรมราชินีนาถ พระบรมราชชนนีพันปีหลวง
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 08.30-16.30 น. (ปิดทุกวันจันทร์และวันหยุดนักขัตฤกษ์)<br />
+            <span class="meta-label">พิกัดเด่น:</span>  พิพิธภัณฑ์เมืองอุดรธานี ถนนโพศรี ตำบลหมากแข้ง อำเภอเมืองอุดรธานี จังหวัดอุดรธานี
+          </div>
+          <a href="https://goo.gl/maps/QeEWDgvfeM6WVrDW7" class="link-more" target="_blank">
+           พิพิธภัณฑ์เมืองอุดรธานี แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/พิพิธภัณฑ์.webp"
+            alt="พิพิธภัณฑ์เมืองอุดรธานี"
+          />
+          <div class="attraction-tag-badge">ในเมือง</div>
+        </div>
+      </article>
+
+      <article class="attraction-card" data-category="city">
+        <div class="attraction-number">15</div>
+        <div class="attraction-main">
+          <div class="attraction-title">
+            อุทยานแห่งชาตินายูง-น้ำโสม
+          </div>
+          <div class="attraction-location">น้ำตก</div>
+          <p class="attraction-desc">
+           อุทยานแห่งชาตินายูง-น้ำโสม เป็นอุทยานที่มีพื้นที่คลอบคลุมขนาดใหญ่ และเป็นรอยต่อ 3 จังหวัด รวมถึงยังเป็นแหล่งท่องเที่ยวทางธรรมชาติมากมายอีกด้วย ทั้ง น้ำตกยูงทอง จุดชมวิวผาแดง น้ำตกตาดน้อย
+          <div class="attraction-meta">
+            <span class="meta-label">เวลาแนะนำ:</span> 08.30-16.30 น.<br />
+            <span class="meta-label">พิกัดเด่น:</span> บ้านสว่าง ตำบลนายูง อำเภอนายูง จังหวัดอุดรธานี
+          </div>
+          <a href="https://goo.gl/maps/94tWifkAqcHDHw927" class="link-more" target="_blank">
+            อุทยานแห่งชาตินายูง-น้ำโสม แผนที่
+          </a>
+        </div>
+        <div class="attraction-image-wrap">
+          <img
+            class="attraction-image"
+            src="image/อุทยาท.jpg"
+            alt="อุทยานแห่งชาตินายูง-น้ำโสม"
+          />
+          <div class="attraction-tag-badge">ธรรมชาติ</div>
+        </div>
+      </article>
+
+
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      © 2025 UdonTrip · จัดทำโดยนักศึกษาวิทยาลัยอาชีวะอุดรธานี สาขาเทคโนโลยีสารสนเทศ ปวช.3/1
+    </footer>
+  </main>
+
+  
+<script>
+    // --- FILTER ---
+    const chips = document.querySelectorAll(".filter-chip");
+    const cards = document.querySelectorAll(".attraction-card");
+
+    chips.forEach((chip) => {
+      chip.addEventListener("click", () => {
+        const filter = chip.dataset.filter;
+
+        chips.forEach((c) => c.classList.remove("active"));
+        chip.classList.add("active");
+
+        cards.forEach((card) => {
+          const category = card.dataset.category;
+          if (filter === "all" || category === filter) {
+            card.style.display = "grid";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      });
+    });
+
+    
+    const body = document.body;
+    const toggle = document.getElementById("themeToggle");
+
+    
+    const savedTheme = localStorage.getItem("udonTheme");
+    if (savedTheme === "dark") {
+      body.classList.add("dark-mode");
+    }
+
+    toggle.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+      const current = body.classList.contains("dark-mode") ? "dark" : "light";
+      localStorage.setItem("udonTheme", current);
+    });
+  </script>
+</body>
+</html>
